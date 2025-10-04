@@ -1,4 +1,5 @@
 // Navbar scroll effect
+// Navbar scroll effect
 const navbar = document.getElementById('navbar');
 window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
@@ -68,7 +69,7 @@ navLinks.forEach(link => {
 });
 
 // Scroll reveal animation
-const revealElements = document.querySelectorAll('.timeline-item, .project-card, .internship-card, .skill-category, .stat-item');
+const revealElements = document.querySelectorAll('.timeline-item, .project-card, .internship-card, .certification-card, .skill-category, .stat-item');
 
 const revealObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry, index) => {
